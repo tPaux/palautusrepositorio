@@ -1,3 +1,3 @@
 # palautusrepositorio
 
-<a href="https://github.com/tPaux/ohtuvarasto">tehtävät 2-13</a>
+<a href="https://github.com/tPaux/ohtuvarasto">https://github.com/tPaux/ohtuvarasto</a>
