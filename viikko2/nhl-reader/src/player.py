@@ -1,6 +1,13 @@
 class Player:
     def __init__(self, dict):
         self.name = dict['name']
+        # sanakirja, jonka avaimet: name, nationality, assists, goals, team, games, id
+        self.nationality = dict["nationality"]
+        self.assists = dict["assists"]
+        self.goals = dict["goals"]
+        self.team = dict["team"]
+        self.games = dict["games"]
+        self.points = self.goals + self.assists
     
     def __str__(self):
-        return self.name
+        return f"{self.name:<25} {self.team:<15} {self.goals:>3} + {self.assists:>3} = {self.points:>3}"
